@@ -14,7 +14,7 @@ public class DisplayMessageActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_display_message);
+        
         Intent displayIntent = getIntent();
         String msg = displayIntent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
@@ -28,7 +28,7 @@ public class DisplayMessageActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        
         getMenuInflater().inflate(R.menu.menu_display_message, menu);
         return true;
     }
