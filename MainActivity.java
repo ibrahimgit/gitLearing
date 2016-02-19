@@ -26,15 +26,14 @@ public class MainActivity extends Activity {
         Intent displayIntent = new Intent(this, DisplayMessageActivity.class);
         EditText ed = (EditText) findViewById(R.id.edit_message);
         String msg = ed.getText().toString();
-        displayIntent.putExtra(EXTRA_MESSAGE, msg);
-        startActivity(displayIntent);
+        startActivity(displayIntent.putExtra(EXTRA_MESSAGE, msg););
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         
 
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        View view = getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -46,13 +45,13 @@ public class MainActivity extends Activity {
         
         if (id == R.id.action_settings) {
             Toast.makeText(getApplicationContext(), "Settings clicked", Toast.LENGTH_SHORT).show();
-            return true;
+            //return true;
         } else if (id == R.id.action_search) {
             Toast.makeText(getApplicationContext(), "Search clicked", Toast.LENGTH_SHORT).show();
-            return true;
+            //return true;
         } else if (id == R.id.action_nobo) {
             Toast.makeText(getApplicationContext(), "Nobo clicked", Toast.LENGTH_SHORT).show();
-            return true;
+            //return true;
         }
 
         return super.onOptionsItemSelected(item);
