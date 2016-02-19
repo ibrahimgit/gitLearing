@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
+	
+	//These are test change
 
     public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
 
@@ -21,6 +23,10 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+	
+	public void foo(){
+		//do something
+	}
 
     public void sendDummyMessage(View view) {
         Intent displayIntent = new Intent(this, DisplayMessageActivity.class);

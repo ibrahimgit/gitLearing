@@ -25,6 +25,10 @@ public class DisplayMessageActivity extends Activity {
         setContentView(textView);
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
+	
+	public void  bar() {
+		//do nothing
+	}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
