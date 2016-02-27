@@ -24,6 +24,10 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 	
+	private void checksumerror() {
+		// got some error
+	}
+	
 	public void foo(){
 		int i = 10;
 		// do something and nothing
