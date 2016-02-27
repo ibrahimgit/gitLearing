@@ -28,6 +28,10 @@ public class MainActivity extends Activity {
 		int i = 10;
 		// do something and nothing
 	}
+	
+	public void run() {
+		// run fast
+	}
 
     public void sendDummyMessage(View view) {
         Intent displayIntent = new Intent(this, DisplayMessageActivity.class);
