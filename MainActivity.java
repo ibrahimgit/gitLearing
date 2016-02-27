@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 	
 	public void foo(){
 		int i = 10;
-		//do something
+		// do something and nothing
 	}
 
     public void sendDummyMessage(View view) {
