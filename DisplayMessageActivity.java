@@ -28,6 +28,10 @@ public class DisplayMessageActivity extends Activity {
 	public void  bar() {
 		//do nothing
 	}
+	
+	public void trySomething () {
+		//try more something
+	}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
