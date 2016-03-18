@@ -15,6 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	
 	//These are test change
+	//Learning from desktop github
 
     public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
 
