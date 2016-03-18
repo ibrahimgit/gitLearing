@@ -37,6 +37,10 @@ public class MainActivity extends Activity {
 	public void run() {
 		// run fast
 	}
+	
+	public set(int i) {
+		// do something
+	}
 
     public void sendDummyMessage(View view) {
         Intent displayIntent = new Intent(this, DisplayMessageActivity.class);
