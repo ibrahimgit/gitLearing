@@ -1,0 +1,68 @@
+git clone <>repository URL>
+
+git checkout <branch/ commit id>
+
+git checkout <commit id> <file id>
+
+git revert <commit> // revert the changes introduced in that commit and make a new commit
+
+git reset // reset the staging area leaving the working directory untouched
+
+git reset <file>
+
+git reset --hard // reset the staging area and working directory matching HEAD
+
+git reset --hard <commit> // reset the staging and working directory matching that commit
+
+git log
+
+git diff <commit id 1> <commit id 2>
+
+git diff // compare between working directory and staging area
+
+git diff --staged
+
+git init
+
+git add <file names space separated>
+
+git log --graph --oneline
+
+git status
+
+git commit
+
+git reset --hard
+
+git reset --hard <commit#>
+
+git branch //with no argument, list down all the branch
+
+git branch <branch name> // it will create a new branch
+
+git checkout -b branch_name //equivalent to git branch <branch_name> and git chekout <branch_name>
+
+
+git merge <To_branch> <From_branch>
+
+git show <commit_id> //shows the difference with its immediate parent
+
+git branch -d <branch_name>
+
+git remote // to view all the remote repositories
+
+git remote add <remote_name like origin> <github url>
+
+git remote -v (verbose, will show more information)
+
+git push <remote name> <branch name>
+
+git pull <remote name> <branch name>
+
+git fetch  <remote name> (get the github repository in your REMOTE branch i.e origin/master branch which is hidden and not your own master branch)
+
+git pull <remote name> <branch name> ( == git fetch origin + git merge master origin/master)
+
+
+
+git log -n 1
