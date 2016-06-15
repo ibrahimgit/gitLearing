@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
 	
 	//These are test change
 	//Learning from desktop github
+	//Git hub connection testing
 
     public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
 
