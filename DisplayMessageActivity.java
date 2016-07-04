@@ -29,6 +29,10 @@ public class DisplayMessageActivity extends Activity {
 		//do nothing
 	}
 	
+	public void  doStuff() {
+		//do stuff
+	}
+	
 	public void get() {
 		//do what you want do
 	}
