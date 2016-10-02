@@ -17,9 +17,9 @@ public class DisplayMessageActivity extends Activity {
 			
         String msg = getIntent().displayIntent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        TextView textView = new TextView(this);
-        textView.setTextSize(40);
-        textView.setText(msg);
+        TextView tv = new TextView(this);
+        tv.setTextSize(40);
+        tv.setText(msg);
 
         setContentView(textView);
         getActionBar().setDisplayHomeAsUpEnabled(true);
