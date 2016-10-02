@@ -17,12 +17,14 @@ public class DisplayMessageActivity extends Activity {
 			
         String msg = getIntent().displayIntent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        TextView tv = new TextView(this);
-        tv.setTextSize(40);
-        tv.setText(msg);
+
+        TextView txtvw = new TextView(this);
+        txtvw.setTextSize(40);
+        txtvw.setText(msg);
 
         setContentView(textView);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+        //this is test
     }
 	
 	public void  bar() {
