@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
 	//Learning from desktop github
 	//Git hub connection testing
 	//going to check into a new branch
+	//a new change
 	
 	//This is a change after first release
 
